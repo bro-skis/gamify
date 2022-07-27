@@ -1,0 +1,40 @@
+﻿.view-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    font-family: Arial;
+    padding-top: 60px;
+}
+
+.thumbnail {
+    width: 300px;
+}
+
+
+.thumbnail-row {
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.new {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    padding: 4px;
+    border-radius: 2px;
+}
+.video-about {
+    width: 110px;
+    line-height: 18px;
+}
+.stock {
+     color: rgb(0, 118, 0);
+}
+.name {
+    font-weight: bold;
+}
